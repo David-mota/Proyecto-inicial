@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+ <html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form for="id_form " action="/submit" method="post">
+      <label>Nombre</label>
+      <input type="text"><br/>
+      <label>Apellido</label>
+      <input type="text"><br/>
+      <label>Fecha de nacimieneto</label>
+      <input type="date"><br/>
+      <label>Contraseña</label>>
+      <input type="password"><br/>
+      <label>Seleccione el tipo de vehiculo</label>
+      <input type="radio" name="tipo vehiculo" value="Turismo" checked><label>Turismo</label>
+      <input type="radio" name="tipo vehiculo" value="Moto" checked><label>Moto</label>
+      <input type="radio" name="tipo vehiculo" value="Todo terreno" checked><label>Todo terreno</label>
+      <input type="radio" name="tipo vehiculo" value="Camion" checked><label>Camion</label><br/>
+      <label>Seleccione la marca de coche</label>
+      <input type="checkbox" id="marca" value="Mercedes"><label>Mercedes</label>
+      <input type="checkbox" id="marca" value="BMW"><label>BMV</label>
+      <input type="checkbox" id="marca" value="SEAT"><label>SEAT</label><br/>
+      <label>Seleecione provincia</label>
+      <select id="provincia" required >
+        <option value="" disabled selected>Seleccione una provincia</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Cceres">Caceres</option>
+        <option value="Barcelona">Barcelona</option>
+      </select><br/>
+      <label for="evaluacion">como valoras el curso del 1 al 5</label>
+      <input type="number" id="evaluacion" min="1" max="5"><br/>
+      <input type="range" id="evaluacion" min="1" max="5"><br/>
+      
+      <label for="hora">Introduzca la hora</label>
+      <input type="time" id="hora"><br/>
+     
+      <label for="email">Introduzca un email</label>
+      <input type="email" id="email"><br/>
+
+      <label for="url">Introduzca una url</label>
+      <input type="url" id="url"><br/>
+      
+      <label for="datetime">Introduzca la Fecha y hora</label>
+      <input type="datetime" id="datetime"><br/>
+
+      <label for="datetime-local">Introduzca la Fecha y hora local</label>
+      <input type="datetime-local" id="datetime-local"><br/>
+
+      <label for="datetime">Introduzca la Fecha y hora</label>
+      <input type="" id=""><br/>
+
+      <textarea id="comentario" name="name" rows="5" cols="50" placeholder="escriba su comentario">
+    </form>
+  </body>
+ </html>
+ 

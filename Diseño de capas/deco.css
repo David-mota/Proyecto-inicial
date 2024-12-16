@@ -1,0 +1,35 @@
+.titulo{
+    background-color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.titulo h1{
+    text-align: center;
+    margin: 40px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.emoji {
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+}
+
+.texto{
+    background-color:yellow;
+    padding: 10px;
+}
+
+.texto .par1{
+    background-color: green;
+}
+
+.texto .par2{
+    
+}
